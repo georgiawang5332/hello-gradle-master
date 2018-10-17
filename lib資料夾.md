@@ -29,6 +29,7 @@ import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
 public class Application {
+
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
     }
@@ -60,8 +61,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @RestController
+
 public class Library {
-    
+
     @RequestMapping("/")
     public @ResponseBody String index() {
         return "user is tiro" + new Date();
@@ -85,6 +87,7 @@ import lib.Library;
 import static org.junit.Assert.*;
 
 public class LibraryTest {
+
     @Test public void testSomeLibraryMethod() {
         Library classUnderTest = new Library();
         assertTrue("someLibraryMethod should return 'true'", classUnderTest.someLibraryMethod());
