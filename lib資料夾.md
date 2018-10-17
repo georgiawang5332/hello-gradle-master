@@ -2,8 +2,12 @@
 create spring boot 
 
 ### 少了bin file ，不知為何無法上船這些檔案，待釐清真相。
+1.
 ![image](https://user-images.githubusercontent.com/19975383/47081718-05af9b00-d23e-11e8-8dad-0518d6d30c65.png)
+2.
 ![image](https://user-images.githubusercontent.com/19975383/47081844-558e6200-d23e-11e8-9560-161cf6528e5b.png)             
+3.
+
 
 # Application.class.java
 
